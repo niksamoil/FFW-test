@@ -1,0 +1,226 @@
+@media screen and (max-width: 675px) {
+
+    .fonts {
+        padding-top: 30px;
+    }
+
+    .fonts-header {
+        &__title {
+            font-size: 25px;
+        }
+
+        &__tabs {
+            min-width: 180px;
+        }
+
+        &__tab-title {
+            font-size: 15px;
+        }
+    }
+
+
+
+
+    .fonts-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px;
+    
+        // .fonts-body__main-card
+
+        &__main-card {
+            display: flex;
+            margin-bottom: 20px;
+        }
+     
+        // .fonts-body__main-logo
+    
+        &__main-logo {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            border: 1px solid black;
+            span {
+                display: flex;
+                background: #00A652;
+                width: 140px;
+                height: 140px;
+                border-radius: 10px;
+                padding-left: 15px;
+                padding-bottom: 5px;
+                color: #58BA7F;
+                font-size: 35px;
+                font-weight: 900;
+                align-items: flex-end;
+            }
+        }
+    
+        // .fonts-body__main-description
+    
+        &__main-description {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+    
+
+        // .fonts-body__card-item
+    
+        &__card-item {
+            display: flex;
+            margin-bottom: 20px;
+        }
+    
+        // .fonts-body__second-logo
+    
+        &__second-logo {
+        
+           
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            border: 1px solid black;
+            span {
+                display: flex;
+                background:#FF7FC2;
+                width: 140px;
+                height: 140px;
+                border-radius: 10px;
+                padding-left: 15px;
+                padding-bottom: 5px;
+                color: #f8f8f850;
+                font-size: 35px;
+                font-weight: 900;
+                align-items: flex-end;
+            }
+            &_blue {
+                span {
+                    background: #006DFE;
+                }
+            }
+        }
+    
+        // .fonts-body__second-description
+    
+        &__second-description {
+            margin-left: 20px;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+    
+    }    
+
+}
+
+@media screen and (max-width: 675px) {
+    .fonts-header {
+        &__title {
+            font-size: 20px;
+        }
+
+        &__tabs {
+            min-width: 130px;
+        }
+
+        &__tab-title {
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .fonts-header {
+        &__title {
+            font-size: 15px;
+        }
+
+        &__tabs {
+            min-width: 120px;
+        }
+
+        &__tab-title {
+            font-size: 10px;
+        }
+    }
+
+
+    .fonts-body {
+        padding: 10px ;
+        justify-content: unset;
+    
+        // .fonts-body__main-card
+
+        &__main-card {
+            display: flex;
+            margin-bottom: 10px;
+        }
+     
+        // .fonts-body__main-logo
+    
+        &__main-logo {
+            
+            width: 70px;
+            height: 70px;
+            span {
+                width: 60px;
+                height: 60px;
+                padding-left: 7px;
+                padding-bottom: 2px;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+
+        // .fonts-body__main-description
+
+        &__main-description {
+            font-weight: 400;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+    
+        // .fonts-body__card-item
+    
+        &__card-item {
+            display: flex;
+            margin-bottom: 10px;
+        }
+    
+        // .fonts-body__second-logo
+    
+        &__second-logo {
+        
+        
+            width: 70px;
+            height: 70px;
+            span {
+                width: 60px;
+                height: 60px;
+                padding-left: 7px;
+                padding-bottom: 2px;
+                color: #f8f8f850;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+
+        &__second-description {
+            margin-left: 10px;
+            margin-top: 5px;
+            font-weight: 400;
+        }
+
+        label {
+            font-size: 13px;
+            max-width: 140px;
+        }
+    }   
+}
