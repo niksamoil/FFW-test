@@ -6,6 +6,9 @@ function parseUrl(string) {
     let indxFour = string.indexOf('#');
     let hash, hostName, pathName;
 
+    
+    hostName = string.slice(indx + 2, indxTwo);
+    pathName = string.slice(indxTwo, indxThree);
 
     //added if-else statement for another links
     if(string.includes('#')) {
@@ -14,8 +17,9 @@ function parseUrl(string) {
         hash = `Hash doesn't exist`;
     }
 
-    hostName = string.slice(indx + 2, indxTwo);
-    pathName = string.slice(indxTwo, indxThree);
+    if(pathName.length === 0) {
+        pathName = `Path doesn't exist`;
+    }
 
     return {
         hostName,
