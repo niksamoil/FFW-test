@@ -55,6 +55,10 @@
   color: #FE5110;
 }
 
+.fonts-header__tab-title:hover {
+  cursor: pointer;
+}
+
 .fonts-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,4 +391,13 @@
     max-width: 140px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+.display-hide {
+  display: none;
+}
+
+.display-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
