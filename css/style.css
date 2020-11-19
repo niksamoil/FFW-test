@@ -46,17 +46,18 @@
 }
 
 .fonts-header__tab-title {
-  color: #BEC6D9;
+  color: #FE5110;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .fonts-header__tab-title_active {
-  color: #FE5110;
+  color: #BEC6D9;
 }
 
 .fonts-header__tab-title:hover {
   cursor: pointer;
+  opacity: 70%;
 }
 
 .fonts-body {
@@ -69,6 +70,18 @@
   padding: 50px;
   border: 3px #C0CBDF solid;
   border-radius: 7px;
+}
+
+.fonts-body__dummy-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fonts-body__main-logo {

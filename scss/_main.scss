@@ -28,18 +28,23 @@
     // .fonts-header__tab-title
 
     &__tab-title {
-        color: #BEC6D9;
+        color: #FE5110;
+        // color: #BEC6D9;
+
         font-weight: 600;
         text-transform: uppercase;
 
         // .fonts-header__tab-title_active
 
         &_active {
-            color: #FE5110;
+            color: #BEC6D9;
+            // color: #FE5110;
+
         }
 
         &:hover {
             cursor: pointer;
+            opacity: 70%;
         }
     }
 }
@@ -52,6 +57,13 @@
     border-radius: 7px;
 
 
+    // fonts-body__dummy-text
+
+    &__dummy-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     // .fonts-body__main-logo
 
